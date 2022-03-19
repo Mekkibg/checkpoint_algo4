@@ -1,0 +1,23 @@
+ALGORITHM sorting_and_searching
+VAR
+    i ,j: INTEGER;
+    arr:ARRAY_OF INTEGER[];
+    n:INTEGER ;
+BEGIN
+    n=arr.length;
+    FOR i FROM 1 TO len STEP 1  DO
+    write(tab[i];
+    read(tab[i]));
+
+    END_FOR
+    FOR i FROM 1 TO n STEP 1  DO
+        key = arr[i];        
+        j=i-1;
+    WHILE (j>=0 and arr[j] > key) DO    
+    arr[j+1]=arr[j];
+    j=j-1;
+    END_WHILE
+    arr[j+1]=key;         
+    END_FOR
+    write (arr[]);
+END
